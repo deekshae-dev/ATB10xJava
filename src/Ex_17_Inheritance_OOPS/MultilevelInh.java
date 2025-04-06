@@ -7,7 +7,13 @@ public class MultilevelInh {
         Grandfather Arjun = new Grandfather(); // his only(1)
 
         Ram.home(); // if we call this then it is coming from grandfather
+        //Not possible cases:
+        //Son s1 = new Grandfather();
+        //Son s2 = new Father();
 
-
+        //possible cases:
+        Father f1 = new Son();
+        Grandfather g1 = new Son();
+        Grandfather  g2 = new Father();
     }
 }
