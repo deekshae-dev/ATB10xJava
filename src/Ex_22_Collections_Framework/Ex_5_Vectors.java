@@ -1,0 +1,36 @@
+package Ex_22_Collections_Framework;
+
+import java.util.*;
+import java.util.Vector;
+
+public class Ex_5_Vectors {
+    public static void main(String[] args) {
+        Vector v = new Vector();
+
+        v.add("sarojini");
+        v.add("Naidu");
+        v.add("is");
+        v.add("the nightingale");
+        v.add("of India");
+        v.add(123);
+        v.addElement("erase");
+        System.out.println(v);
+        System.out.println("***");
+        System.out.println(v.elementAt(6));
+        System.out.println("***");
+        System.out.println(v.firstElement());
+        System.out.println("***");
+        System.out.println(v.lastElement());
+        System.out.println("***");
+        System.out.println(v.removeElement(6));
+        System.out.println(v);
+        System.out.println("***");
+        System.out.println(v.remove(5));
+        System.out.println(v);
+        System.out.println("***");
+        System.out.println(v.capacity());
+
+
+
+    }
+}
