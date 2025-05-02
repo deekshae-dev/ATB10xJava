@@ -1,7 +1,6 @@
 package Ex_22_Collections_Framework;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Ex_13_ArrayList_Class_Element {
     public static void main(String[] args) {
@@ -10,6 +9,13 @@ public class Ex_13_ArrayList_Class_Element {
         Student s3 = new Student("Lakshman","3");
 
         List <Student> myStudents = new ArrayList<>();
+        //here student is a custom data type
+        //or
+        //List <Student> myStudents = new LinkedList<>();
+        //or
+        //List <Student> myStudents = new Stack<>();
+        //or
+        //List <Student> myStudents = new Vector<>();
         myStudents.add(s1);
         myStudents.add(s2);
         myStudents.add(s3);

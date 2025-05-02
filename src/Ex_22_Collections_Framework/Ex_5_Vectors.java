@@ -30,7 +30,18 @@ public class Ex_5_Vectors {
         System.out.println("***");
         System.out.println(v.capacity());
 
+        System.out.println("--------");
 
+        Iterator iterator = v.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
 
+        //Enumeration:
+        System.out.println("----Enumeration----");
+        Enumeration <String> e1 = v.elements();
+        while (e1.hasMoreElements()) {
+            System.out.println(e1.nextElement());
+        }
     }
 }
